@@ -103,6 +103,42 @@ export const pastEvents: PastEvent[] = [
     ]
   },
   {
+    slug: "ideathonx-2026",
+    name: "IDEATHONX 2026",
+    shortName: "IdeathonX 2026",
+    type: "Innovation Challenge",
+    tag: "IDEATHON",
+    date: "2026",
+    location: "BVUDET, Navi Mumbai",
+    format: "Hybrid",
+    participantCount: "100+",
+    duration: "2 Weeks",
+    edition: "Season 1",
+    description: "IdeathonX 2026 is an innovation challenge by the Entrepreneurship Cell of Bharati Vidyapeeth Deemed University Department of Engineering and Technology. Inspired by the spirit of PitchX 2026, the event gives students a platform to identify meaningful problems, develop innovative solutions, and transform their ideas into impactful ventures. Participants will receive valuable feedback, connect with mentors, and showcase their concepts to industry experts.",
+    objective: "To encourage students to think creatively, solve real-world problems, and turn promising ideas into viable solutions through structured ideation, mentorship, and final presentations.",
+    highlights: [
+      "Hybrid innovation challenge open to students across disciplines",
+      "Multiple stages including idea submission, mentorship, and final presentation",
+      "Top teams receive feedback and guidance from industry experts",
+      "Finalists showcase their solutions at BVUDET, Navi Mumbai"
+    ],
+    guests: [
+      { name: "Aravind Krishna", role: "Judge", organization: "G.E.T Solutions", placeholder: false },
+      { name: "Shubham Dumbre", role: "Mentor", organization: "TedX Speaker", placeholder: false },
+      { name: "Somanath Diksangi", role: "Mentor", organization: "", placeholder: false },
+      { name: "Kanhayya Gupta", role: "Mentor", organization: "Rahi Works", placeholder: false },
+      { name: "ABHIJAY SINGH", role: "Mentor", organization: "Drone Veda Technologies", placeholder: false },
+    ],
+    images: [
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665827/Copy_of_INNOVATEX_cf8jmd.png",
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665723/WhatsApp_Image_2026-09-17_at_12.10.33_PM_sqnksx.jpg",
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665723/WhatsApp_Image_2026-09-17_at_12.10.34_PM_1_srmquu.jpg",
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665723/WhatsApp_Image_2026-09-17_at_12.10.34_PM_t4jut4.jpg",
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665724/IMG_6403.JPG_nqxrdc.jpg",
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665813/IMG_6396.HEIC_agzxnh.jpg",
+    ]
+  },
+  {
     slug: "dev-with-ai",
     name: "DEV WITH AI",
     shortName: "Dev with AI",
@@ -201,3 +237,11 @@ export const pastEvents: PastEvent[] = [
     ]
   },
 ];
+
+export const pastEventsChronological = [...pastEvents].sort(
+  (a, b) => {
+    if (a.slug === "ideathonx-2026") return -1;
+    if (b.slug === "ideathonx-2026") return 1;
+    return Number(b.date) - Number(a.date);
+  }
+);
