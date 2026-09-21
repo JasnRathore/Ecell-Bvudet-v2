@@ -234,8 +234,8 @@ export const currentTeam: TeamMember[] = [
     email: "",
     website: null,
     isPlaceholder: false,
-    year: "2025",
-    tenure: "2025–26"
+    year: "2026",
+    tenure: "2026–27"
   },
   {
     id: "ayush-mishra",
