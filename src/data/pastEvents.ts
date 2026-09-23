@@ -51,11 +51,11 @@ export const pastEvents: PastEvent[] = [
     images: [
     "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189920/WhatsApp_Image_2026-09-20_at_1.44.59_PM_lzosox.jpg",
     "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189872/Launchpad_2026_sjes3o.png",
+    "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189411/20260921_140939.jpg_uvltin.jpg",
+    "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189411/IMG_1359_vk5ww9.heic",
     "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189406/20260921_143456.jpg_wuxz87.jpg",
     "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189407/IMG_7675.JPG_bbc7kx.jpg",
     "https://res.cloudinary.com/dobmi3ojr/video/upload/v1790189406/IMG_1214_h3af0u.mov",
-    "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189411/20260921_140939.jpg_uvltin.jpg",
-    "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189411/IMG_1359_vk5ww9.heic",
     "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189417/20260921_135755.jpg_aydcdg.jpg",
     "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189418/20260921_134819.jpg_prqrin.jpg",
     "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790189427/20260921_134455.jpg_etoq8x.jpg",
