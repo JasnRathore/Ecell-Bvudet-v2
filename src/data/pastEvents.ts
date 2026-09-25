@@ -168,13 +168,17 @@ export const pastEvents: PastEvent[] = [
       { name: "ABHIJAY SINGH", role: "Mentor", organization: "Drone Veda Technologies", placeholder: false },
     ],
     images: [
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790192580/WhatsApp_Image_2026-09-24_at_1.12.24_AM_atzzsp.jpg",
       "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665827/Copy_of_INNOVATEX_cf8jmd.png",
       "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665723/WhatsApp_Image_2026-09-17_at_12.10.33_PM_sqnksx.jpg",
       "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665723/WhatsApp_Image_2026-09-17_at_12.10.34_PM_1_srmquu.jpg",
       "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665723/WhatsApp_Image_2026-09-17_at_12.10.34_PM_t4jut4.jpg",
       "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665724/IMG_6403.JPG_nqxrdc.jpg",
       "https://res.cloudinary.com/dobmi3ojr/image/upload/v1789665813/IMG_6396.HEIC_agzxnh.jpg",
-
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790331756/Project_-_Sep_25_03_51_PM_-_1_mqhvp9.png",
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790331822/Project_-_Sep_25_03_51_PM_-_3_yq1wn9.png",
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790331831/Project_-_Sep_25_03_51_PM_-_2_exe7lu.png",
+      "https://res.cloudinary.com/dobmi3ojr/image/upload/v1790331850/Project_-_Sep_25_03_51_PM_-_1_1_sqrpuu.png",
     ]
   },
   {
